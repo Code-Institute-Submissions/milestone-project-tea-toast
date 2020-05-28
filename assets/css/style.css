@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body {
+    background: url("../images/cornwall coast 3.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: 5s ease-in-out;
+}
+
+/*---alert---*/
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 200;
+    border-color: rgb(19, 109, 226);
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*---title---*/
+
+.title {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    letter-spacing: 12px;
+    text-align: center;
+    margin-top: 100px;
+    font-size: xx-large;
+    color: rgb(17, 74, 107);
+}
+
+/*---hover---*/
+
+.hvr-bounce-to-right:before {
+    background-color: #15692a;
+}
+
+.social-links li a i:hover {
+    background: #15692a;
+}
+
+/*---footer---*/
+
+#footer-style {
+    background: #9c9b9b;
+    color: #fff;
+    font-family: 'Exo',sans-serif;
+    padding: 10px;
+    position: ;
+}
+
+.footer-headers {
+    text-align: center;
+    font-family: cursive;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.social-links {
+    text-align: center;
+    letter-spacing: 5px;
+    padding-top: 8px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 12px;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #5f5e5e;
+}
+
+
