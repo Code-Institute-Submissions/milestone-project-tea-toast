@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap:100,200,300,400,500,600,700');
+
 
 .background-container {
     height: 100vh;
-    background: url("../images/cornwall coast 3.jpg") no-repeat center center fixed; 
+    background: url("../images/cornwall coast 3.jpg") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,15 +30,84 @@
     padding-right: 0;
 }
 
-/*---section---*/
+/*---navbar---*/
 
-.container {
+.navbar-title {
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+/*---breaks---*/
+
+.break-line {
+    width: 300px;
+    height: 5px;
+    border: 2px;
+    border-color: #fff;
+    background-color: rgb(2, 68, 112);
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+/*---quote section---*/
+
+.quote-icon {
+    
+    text-align: center;
+    padding: 0px 15px 10px 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.quote-icon a {
+    text-decoration: none;
+    color: #9c9b9b;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Permanent Marker', cursive;
+    font-family:'Tenali Ramakrishna', sans-serif;
+    font-weight: 400;
+    font-size: x-large;
 }
+
+.quote-icon a i {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    display: block;
+    color: #9c9b9b;
+    font-size: 30px;
+    
+}
+
+/*---menu section---*/
+
+.menu-background {
+    background: url("../images/cafe-breakfast.jpg") center center;
+    height: 300px;
+    margin-left: 0;
+    margin-right: 0;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 100%;
+    
+}
+
+
+
+
 /*---hover---*/
 
-
+.menu-callout:hover {
+    background: #fff;
+    color: #444;
+}
 
 /*---footer---*/
