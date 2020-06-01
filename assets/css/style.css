@@ -145,6 +145,44 @@
     color: #fff;
 }
 
+/*---info---*/
+
+.info-background {
+    background: url("../images/tea.jpg") no-repeat center center;
+    height: 500px;
+    margin-left: 0;
+    margin-right: 0;
+   -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 100%;
+}
+
+.info-headers {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 3px;
+    color: #fff;
+    margin-top: 80px;
+}
+
+.info-headers h6 {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+#hours {
+    font-family:'Tenali Ramakrishna', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+} 
 /*---hover---*/
 
 .menu-border:hover {
@@ -152,14 +190,8 @@
     color: #444;
 }
 
-.navbar-title:hover {
-    background: rgb(1, 23, 95);
-    color: #fff;
-}
-
 .navbar-items li a:hover {
-    background: rgb(1, 23, 95);
-    color: #fff;
+    background: #fff;
 }
 
 /*---footer---*/
