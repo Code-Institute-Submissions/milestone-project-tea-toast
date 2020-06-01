@@ -12,6 +12,16 @@
     transition: 2s ease-in-out;
 }
 
+.gallery-container {
+    height: 100vh;
+    background: url("../images/cornwall coast 2.jpg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    transition: 2s ease-in-out;
+}
+
 /*---alert---*/
 
 .site-wide-alert {
@@ -69,12 +79,31 @@
 .break-line {
     width: 300px;
     height: 5px;
-    border: 2px;
-    border-color: #fff;
     background-color: rgb(2, 68, 112);
     margin-top: 50px;
     margin-bottom: 50px;
+}
 
+.info-breaks {
+    width: 100px;
+    height: 3px;
+    background-color: rgb(2, 68, 112);
+    margin-top: 20px;
+}
+
+.address-break {
+    width: 50px;
+    height: 3px;
+    background-color: rgb(2, 68, 112);
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.footer-break {
+    width: 200px;
+    height: 3px;
+    background-color: rgb(0, 111, 185);
+    margin-top: 30px;
 }
 
 /*---quote section---*/
@@ -163,26 +192,38 @@
     font-family: 'Permanent Marker', cursive;
     text-transform: uppercase;
     text-align: center;
-    font-size: x-large;
     letter-spacing: 3px;
     color: #fff;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
-.info-headers h6 {
+.month-headers {
     font-family: 'Permanent Marker', cursive;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
     color: #fff;
+    margin-top: 40px;
 }
 
 #hours {
     font-family:'Tenali Ramakrishna', sans-serif;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 3px;
     color: #fff;
+    font-size: large;
 } 
+
+#address {
+    font-family:'Tenali Ramakrishna', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: large;
+}
+
 /*---hover---*/
 
 .menu-border:hover {
@@ -190,8 +231,54 @@
     color: #444;
 }
 
-.navbar-items li a:hover {
-    background: #fff;
+.social-links li a i:hover {
+    color: #fff;
+    background: rgb(0, 111, 185);
 }
 
 /*---footer---*/
+
+.footer-background {
+    background: rgb(2, 68, 112);
+    height: 250px;
+    margin-left: 0;
+    margin-right: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 100%;
+}
+    
+.footer-header {
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-links li a i {
+    width: 50px;
+    height: 50px;
+    padding: 15px 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 50%;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+    color: rgb(2, 68, 112);
+    background: #fff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
