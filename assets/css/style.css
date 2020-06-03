@@ -84,7 +84,7 @@
     text-transform: uppercase;
     font-size: 10vh;
     color: rgb(2, 68, 112);
-    padding-top: 5vh;
+    padding-top: 8vh;
 }
 
 .title p {
@@ -192,8 +192,7 @@
 /*---info---*/
 
 .info-background {
-
-    background: url("../images/cornwall coast 2.jpg") bottom center; 
+    background: url("../images/cornwall coast.jpg") center center; 
     margin-left: 0;
     margin-right: 0;
    -webkit-background-size: cover;
@@ -315,33 +314,6 @@
     border: 5px solid white;
 }
 
-.coastline-photo {
-    height: 50vh;
-    background: url("../images/cornwall coast 2.jpg") bottom center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding: 20px;
-}
-
-.coastline {
-    background: rgb(2, 68, 112); 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    text-align: center;
-    padding: 8vh 0vh;
-}
-.coastline-message {
-    letter-spacing: 12px;
-    font-family: 'Permanent Marker', cursive;
-    text-transform: uppercase;
-    font-size: 10vh;
-     color: #fff;
-}
-
 /*---hover---*/ 
 
 .menu-border:hover {
@@ -393,6 +365,7 @@
     width: 50px;
     height: 50px;
     padding: 15px 5px;
+    margin-bottom: 10px;
     margin-left: 25px;
     margin-right: 25px;
     border-radius: 50%;
@@ -414,13 +387,12 @@
     -o-background-size: cover;
     background-size: cover;
     text-align: center;
-    padding: 8vh 0vh;
+    padding: 5vh 0vh;
 }
 
 .message {
-    letter-spacing: 12px;
+    letter-spacing: 8px;
     font-family: 'Permanent Marker', cursive;
     text-transform: uppercase;
-    font-size: 10vh;
-     color: #fff;
+    color: #fff;
 }
