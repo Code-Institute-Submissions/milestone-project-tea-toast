@@ -24,30 +24,42 @@
             </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand navbar-title" href="index.html">tea & toast</a>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-container">
+           
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav navbar-items">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">cafe<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">gallery</a>
+                    <a class="nav-link" href="index.html#gallery">gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../menu/tea&toast-menu.docx" target="_blank">menu</a>
+                    <a class="nav-link" href="index.html#menu">menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="shop.html">shop</a>
+                    <a class="nav-link" href="index.html#information">information</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#social">social media</a>
                 </li>
                 </ul>
             </div>
         </nav>
-    
+
+        <div class="container">
+            <div class="title">
+                <p>tea & toast</p>
+            </div>
+
+            <hr class="break-line">
+
+        </div>
+
     </div>
 
     </header>
@@ -63,11 +75,11 @@
     <hr class="break-line">
 
 
-        <div class="menu-background">
+        <div class="menu-background" id="menu">
            <div class="menu-container">
                 <div class="menu-callout">
                     <span class="border border-white menu-border">
-                        check out our menu
+                        <a href="../menu/tea&toast-menu.docx" target="_blank">download our menu</a>
                     </span>
                 </div>
            </div>
@@ -75,37 +87,60 @@
 
     <hr class="break-line">
 
-    <div class="info-background">
-        <div class="container">
-            <div class="row info-container">
-                <div class="col-12 col-lg-6">
+    <div class="gallery-container" id="gallery">
+        <div class="gallery">
+            <ul class="list-inline">
+                <li class="list-inline-item picture-2"></li>
+                <li class="list-inline-item picture-4"></li>
+                <li class="list-inline-item picture-1"></li>
+                <li class="list-inline-item picture-7"></li>
+                <li class="list-inline-item picture-3"></li>
+                <li class="list-inline-item picture-5"></li>
+            </ul>
+        </div>
+    </div>
+
+    <hr class="break-line">
+    
+    <div class="info-background" id="information"> 
+        <div class="row info-container">
+            <div class="col-12 col-lg-6">
                     
-                    <h5 class="info-headers">hours of operation</h5>
+                <h5 class="info-headers">hours of operation</h5>
                         
-                        <hr class="info-breaks">
+                    <hr class="info-breaks">
 
-                        <h6 class="month-headers">april - october</h6>
-                        <p id="hours">mondays | closed</p>
-                        <p id="hours">weekdays | 7 - 3</p>
-                        <p id="hours">weekends | 630 - 330</p>
-                        <h6 class="month-headers">november - april</h6>
-                        <p id="hours">thursday - sunday | 8 - 3</p>
-                    
-                </div>
+                    <h6 class="month-headers">april - october</h6>
+                    <p id="hours">mondays | closed</p>
+                    <p id="hours">weekdays | 7 - 3</p>
+                    <p id="hours">weekends | 630 - 330</p>
+                    <h6 class="month-headers">november - april</h6>
+                    <p id="hours">thursday - sunday | 8 - 3</p>      
+            </div>
 
-                <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6">
 
-                    <h5 class="info-headers">address</h5>
+                <h5 class="info-headers">address</h5>
 
-                    <hr class="address-break">
+                <hr class="address-break">
 
-                    <p id="address">127 market street</p>
-                    <p id="address">falmouth</p>
-                    <p id="address">tr11 3ae</p>
-                    <p id="address">england</p>
-                    <p id="address">+44 1455 291 435</p>
-                </div>
+                <p id="address">127 market street</p>
+                <p id="address">falmouth</p>
+                <p id="address">tr11 3ae</p>
+                <p id="address">england</p>
+                <p id="address">+44 1455 291 435</p>
+            </div>
+        </div>
+    </div>
 
+    <hr class="break-line">
+   
+    <div class="coastline-photo">
+        <div class="coastline">
+            <div class="coastline-message">
+                <h1>we hope to see you soon</h1>
+            </div>
+        </div>
     </div>
 
     </section>
@@ -114,8 +149,8 @@
 
     <footer>
 
-        <div class="footer-background">
-            <div>
+        <div class="footer-background" id="social">
+        
                 <h2 class="footer-header">social media links</h2>
 
                 <hr class="footer-break">
@@ -158,7 +193,7 @@
                         </a>
                     </li>
                 </ul>
-            </div>
+            
         </div>
 
     </footer>
