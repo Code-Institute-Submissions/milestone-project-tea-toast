@@ -192,7 +192,8 @@
 /*---info---*/
 
 .info-background {
-    background: url("../images/tea.jpg") no-repeat center center;
+
+    background: url("../images/cornwall coast 2.jpg") bottom center; 
     margin-left: 0;
     margin-right: 0;
    -webkit-background-size: cover;
@@ -228,20 +229,23 @@
     
 }
 
-#hours {
+.hours {
     font-family:'Tenali Ramakrishna', sans-serif;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
     margin: 0;
+    
 } 
 
-#address {
+.address {
     font-family:'Tenali Ramakrishna', sans-serif;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
     margin: 0;
+    font-size: large;
+   
 }
 
 /*---gallery---*/
@@ -322,7 +326,7 @@
 }
 
 .coastline {
-    background: transparent; 
+    background: rgb(2, 68, 112); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -335,7 +339,7 @@
     font-family: 'Permanent Marker', cursive;
     text-transform: uppercase;
     font-size: 10vh;
-    color: #fff;
+     color: #fff;
 }
 
 /*---hover---*/ 
@@ -356,7 +360,7 @@
 /*---footer---*/
 
 .footer-background {
-    background: rgb(204, 204, 204);
+    background: url("../images/tea.jpg") no-repeat center center;
     margin-left: 0;
     margin-right: 0;
     -webkit-background-size: cover;
@@ -364,6 +368,7 @@
     -o-background-size: cover;
     background-size: cover;
     min-width: 100%;
+    min-height: 30vh;
 }
     
 .footer-header {
@@ -400,4 +405,22 @@
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+.message-container {
+    background: rgb(2, 68, 112); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    padding: 8vh 0vh;
+}
+
+.message {
+    letter-spacing: 12px;
+    font-family: 'Permanent Marker', cursive;
+    text-transform: uppercase;
+    font-size: 10vh;
+     color: #fff;
 }
