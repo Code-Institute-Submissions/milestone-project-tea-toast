@@ -45,7 +45,7 @@ For this project I used my new knowledge and understanding of html and css funct
 I also implemented several Bootstrap qualities in order to assist me, along with the help 
 of google fonts and font awesome.
 
-UX
+## UX
 
 For my website I wanted to make the ux friendly for all people. Simple yet effective and appealing
 was the main focus. Being a coastal cafe the website needed to be capable of targetting a wide range
@@ -70,7 +70,7 @@ the user never has to leave the website to do this.
 I have attached some samples of my design work an the changes that I made over time as the project ran on.
 
 
-FEATURES
+## FEATURES
 
 1 - info alert at the top of the screen. I added this to attract attention to an offer that the cafe is having for the month of June.
 I feel having a attractive eye catching offer is good way to start when the user opens a website. Gets their attention and draws them 
@@ -89,16 +89,17 @@ location on the site.
 5 - social media. The social media links target a new tab to allow the user to visit the pages of the cafe without losing their place on the website.
 
 
-TECHNOLOGIES
+## TECHNOLOGIES
 
-booststrap
+booststrap - I used bootstrap to assist me with creating the navbar, alert bar and columns. As a user I found this tool very helpful as it assists with
+the responsibilty between device widths.
 
-google fonts
+google fonts - I spent some time scrolling through google fonts testing out some phrases to see which appealed the most.
 
-font awesome
+font awesome - Font awesome was a helpful tool for adding the social media icons and the speech marks above my quotation which help improve the user interface.
 
 
-TESTING
+## TESTING
 
 For this website I conducted testing by seeking the advice of friends and family. I simply sent the link on to them and openend up to all kinds
 of feedback. This allowed me to improve punctuation, style and layout design. By involving friends and family I was able to cover a wide range of 
@@ -121,24 +122,24 @@ One issue I came across was my navbar when viewing on a mobile device. The Navba
 on the the icon the menu does not drop down. It is a bug Im having difficutly fixing.
 
 
-DEPLOYMENT
+## DEPLOYMENT
 
 In order to deploy the project and share it with friends and family I had to enable github pages. When doing so I selected a theme which in this case was
 Jekyll-theme-dinky and that allowed me to share my website to gain as much feedback as possible and improve my project accordingly.
 
 _config.yml
 
-CREDITS
+## CREDITS
 
-Content:
+ Content:
 - The text used was a personal choice made by scrolling through google fonts and decided on a design I felt suitable.
 - I wrote the quote section mysefl
 
-Media:
+ Media:
 - All images were found on google images
 - The menu was also personally designed by mysefl
 
-Acknowledgements:
+ Acknowledgements:
 - Inspiration for this project came from a personal dream of mine to one day own a small cafe on the coast somewhere. I chose Cornwall for
 this project due its countryside atmosphere and beauty.
 - The name "Tea & Toast" does however have a specific meaning. It is a reference to a song by The Courteeners called "Not nineteen forever"
