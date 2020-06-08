@@ -87,3 +87,61 @@ and welcoming to the user.
 location on the site.
 
 5 - social media. The social media links target a new tab to allow the user to visit the pages of the cafe without losing their place on the website.
+
+
+TECHNOLOGIES
+
+booststrap
+
+google fonts
+
+font awesome
+
+
+TESTING
+
+For this website I conducted testing by seeking the advice of friends and family. I simply sent the link on to them and openend up to all kinds
+of feedback. This allowed me to improve punctuation, style and layout design. By involving friends and family I was able to cover a wide range of 
+people as my target audience has a vast outreach. I was able to gather feedback from both male and female subjects whilst covering an age range 
+from 13 all the way 81. This ensured that the website was simple and easy to use to those technology minded and those who are new to modern devices 
+like iphones and ipads. Also allowed me to test the visibility and clarity in the information presented as several of the subjects had lesser vision 
+to some of the others. 
+
+Furthermore I consistently ensured my website was suitable on a wide range 
+of device sizes such as desktop, ipad and mobile. To do this I used the inspect element on the goolge chrome delevepor tools.
+
+I also conducted tests mysefl to ensure all the features I implemented were effective.
+For example - I made sure that every element of the navbar would direct the user to the correct section of the website.
+- I tested the download menu feature to be sure that the correct file was linked and that it would download instead of linking to a new tab.
+- I checked to ensure that the social media icons would open a new tab also.
+Throughout my project I was constantly exploring a variety of layouts and images to use. By doing this I was able to see how the site would look on all 
+device widths and ensure the information presented was visible and clear on all devices also. 
+
+One issue I came across was my navbar when viewing on a mobile device. The Navbar collapses to the hamburger toggle as intended however when clicking
+on the the icon the menu does not drop down. It is a bug Im having difficutly fixing.
+
+
+DEPLOYMENT
+
+In order to deploy the project and share it with friends and family I had to enable github pages. When doing so I selected a theme which in this case was
+Jekyll-theme-dinky and that allowed me to share my website to gain as much feedback as possible and improve my project accordingly.
+
+_config.yml
+
+CREDITS
+
+Content:
+- The text used was a personal choice made by scrolling through google fonts and decided on a design I felt suitable.
+- I wrote the quote section mysefl
+
+Media:
+- All images were found on google images
+- The menu was also personally designed by mysefl
+
+Acknowledgements:
+- Inspiration for this project came from a personal dream of mine to one day own a small cafe on the coast somewhere. I chose Cornwall for
+this project due its countryside atmosphere and beauty.
+- The name "Tea & Toast" does however have a specific meaning. It is a reference to a song by The Courteeners called "Not nineteen forever"
+where the lyrics "said how would I like to go for tea and toast?". The song is largely popular in the UK and I feel the Tea & Toast name is very 
+fitting for a cafe. 
+
