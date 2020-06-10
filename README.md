@@ -40,9 +40,8 @@ We continually tweak and adjust this template to help give you the best experien
 
 My project was to build a frontend website using html, css and other functions I have learnt up to now on my course. 
 
-I decided to design a website for a cafe, an idea that I have had for several years now. 
-For this project I used my new knowledge and understanding of html and css functions.
-I also implemented several Bootstrap qualities in order to assist me, along with the help 
+I decided to design a website for a cafe, an idea that I have had for several years now. For this project I used my new knowledge and 
+understanding of html and css functions. I also implemented several Bootstrap qualities in order to assist me, along with the help 
 of google fonts and font awesome.
 
 ## UX
@@ -61,7 +60,7 @@ strictly on one page would be hugely beneficial also. The aim of the navbar is t
 to the section they wish to view at the simple click of a button. Furthermore the user can simply scroll the 
 entire website without difficutly or loading a new page.
 
-I wanted as little external links or downloads as possible to ensure the user remains engaged with the website
+I wanted as little external links or downloads as possible to ensure the user remains engaged with the website.
 The menu and social media features are the only sections where this happens. As the menu was 4 pages in length
 I decided a downloadable link was useful as they can thoroughly view the variety of options the cafe offers.
 Social media links of course opening a new tab and directing a user to the cafes page is a function I like as 
@@ -72,10 +71,10 @@ I have attached some samples of my design work an the changes that I made over t
 
 ## FEATURES
 
-1 - info alert at the top of the screen. I added this to attract attention to an offer that the cafe is having for the month of June.
+1 - Info alert at the top of the screen. I added this to attract attention to an offer that the cafe is having for the month of June.
 I feel having a attractive eye catching offer is good way to start when the user opens a website. Gets their attention and draws them 
-into visiting
-******change to a warning alert*********
+into visiting the cafe. I had experimented with an info alert but chose to go with the warning color as I feel it stands out more and attracts 
+the user to the offer.
 
 2 - Navbar. The navbar is designed to simply jump the user down the page to the specific section they wish to explore. I find this is 
 a very easy to use and user friendly function and allows the user to explore all sections of the site.
@@ -86,17 +85,17 @@ and welcoming to the user.
 4 - Menu. The download menu section allows users to view and download the cafes menu by simply clicking on the link and not losing their 
 location on the site.
 
-5 - social media. The social media links target a new tab to allow the user to visit the pages of the cafe without losing their place on the website.
+5 - Social media. The social media links target a new tab to allow the user to visit the pages of the cafe without losing their place on the website.
 
 
 ## TECHNOLOGIES
 
-booststrap - I used bootstrap to assist me with creating the navbar, alert bar and columns. As a user I found this tool very helpful as it assists with
+Booststrap - I used bootstrap to assist me with creating the navbar, alert bar and columns. As a user I found this tool very helpful as it assists with
 the responsibilty between device widths.
 
-google fonts - I spent some time scrolling through google fonts testing out some phrases to see which appealed the most.
+Google fonts - I spent some time scrolling through google fonts testing out some phrases to see which appealed the most.
 
-font awesome - Font awesome was a helpful tool for adding the social media icons and the speech marks above my quotation which help improve the user interface.
+Font awesome - Font awesome was a helpful tool for adding the social media icons and the speech marks above my quotation which help improve the user interface.
 
 
 ## TESTING
@@ -127,7 +126,6 @@ on the the icon the menu does not drop down. It is a bug Im having difficutly fi
 In order to deploy the project and share it with friends and family I had to enable github pages. When doing so I selected a theme which in this case was
 Jekyll-theme-dinky and that allowed me to share my website to gain as much feedback as possible and improve my project accordingly.
 
-_config.yml
 
 ## CREDITS
 

@@ -227,19 +227,16 @@
 /*---gallery---*/
 
 .gallery {
-    padding: 3vh 0;
+    padding: 5vh;
     letter-spacing: 15px;
     text-align: center;
     text-transform: uppercase;
     color: #fff;
+
 }
 
 .gallery h1 {
     padding-bottom: 4vh;
-}
-
-.gallery ul {
-    margin-bottom: 0;
 }
 
 .picture-1 {
