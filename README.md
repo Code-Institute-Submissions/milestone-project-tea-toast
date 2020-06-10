@@ -36,7 +36,7 @@ We continually tweak and adjust this template to help give you the best experien
 
 --------
 
-TEA & TOAST
+# TEA & TOAST
 
 My project was to build a frontend website using html, css and other functions I have learnt up to now on my course. 
 
