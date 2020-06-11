@@ -68,6 +68,14 @@ the user never has to leave the website to do this.
 
 I have attached some samples of my design work an the changes that I made over time as the project ran on.
 
+<img src="assets/images/wireframe1.jpg">
+<img src="assets/images/wireframe2.jpg">
+<img src="assets/images/wireframe3.jpg">
+<img src="assets/images/wireframe4.jpg">
+<img src="assets/images/wireframe5.jpg">
+<img src="assets/images/wireframe6.jpg">
+<img src="assets/images/wireframe7.jpg">
+
 
 ## FEATURES
 
