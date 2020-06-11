@@ -66,7 +66,9 @@ I decided a downloadable link was useful as they can thoroughly view the variety
 Social media links of course opening a new tab and directing a user to the cafes page is a function I like as 
 the user never has to leave the website to do this.
 
-I have attached some samples of my design work and sketches that I used along the way. Please see the images in the wireframes folder.
+I have attached some samples of my design work and sketches that I used along the way. Please see the images at the bottom of
+my readme and also in the images folder.
+
 Furthermore, I had started the projectonce before this and then decided to start a fresh. The initial can be seen at 
 https://github.com/phillrutherford/my-milestone-project.git as it cleared my way for some better designs.
 
@@ -118,10 +120,17 @@ For example - I made sure that every element of the navbar would direct the user
 Throughout my project I was constantly exploring a variety of layouts and images to use. By doing this I was able to see how the site would look on all 
 device widths and ensure the information presented was visible and clear on all devices also. 
 
+I ran my html and css codes through validators at https://www.freeformatter.com/html-validator.html and http://www.css-validator.org/validator
+The html code had zero bugs
+The css had several issues flagged but when I checked the problems it was all to do with using the vh property on the height of my images and containers.
+
 One issue I came across was my navbar when viewing on a mobile device. The Navbar collapses to the hamburger toggle as intended however when clicking
 on the the icon the menu does not drop down. In the end I was able to get the issue fixed through the help of slack, I had to link jquery from bootstrap.
 
 I am noticing a slide horizontal slide bar and I am unable to see that issue in my code.
+
+The final issue I had was uploading the images for my wireframe. When I add the to the end of the readmme they load ok, when I tried to add them to a folder
+the pictures zoomed in and then become very unclear and had to read. I have left them at the very end of the readme so it is easily visible.
 
 ## DEPLOYMENT
 
@@ -146,3 +155,12 @@ this project due its countryside atmosphere and beauty.
 where the lyrics "said how would I like to go for tea and toast?". The song is largely popular in the UK and I feel the Tea & Toast name is very 
 fitting for a cafe. 
 
+### _Wireframe Images:_
+
+<img src="assets/images/wireframe1.jpg">
+<img src="assets/images/wireframe2.jpg">
+<img src="assets/images/wireframe3.jpg">
+<img src="assets/images/wireframe4.jpg">
+<img src="assets/images/wireframe5.jpg">
+<img src="assets/images/wireframe6.jpg">
+<img src="assets/images/wireframe7.jpg">
