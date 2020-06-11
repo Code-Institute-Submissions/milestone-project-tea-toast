@@ -66,16 +66,9 @@ I decided a downloadable link was useful as they can thoroughly view the variety
 Social media links of course opening a new tab and directing a user to the cafes page is a function I like as 
 the user never has to leave the website to do this.
 
-I have attached some samples of my design work an the changes that I made over time as the project ran on.
-
-<img src="assets/images/wireframe1.jpg">
-<img src="assets/images/wireframe2.jpg">
-<img src="assets/images/wireframe3.jpg">
-<img src="assets/images/wireframe4.jpg">
-<img src="assets/images/wireframe5.jpg">
-<img src="assets/images/wireframe6.jpg">
-<img src="assets/images/wireframe7.jpg">
-
+I have attached some samples of my design work and sketches that I used along the way. Please see the images in the wireframes folder.
+Furthermore, I had started the projectonce before this and then decided to start a fresh. The initial can be seen at 
+https://github.com/phillrutherford/my-milestone-project.git as it cleared my way for some better designs.
 
 ## FEATURES
 
@@ -126,24 +119,25 @@ Throughout my project I was constantly exploring a variety of layouts and images
 device widths and ensure the information presented was visible and clear on all devices also. 
 
 One issue I came across was my navbar when viewing on a mobile device. The Navbar collapses to the hamburger toggle as intended however when clicking
-on the the icon the menu does not drop down. It is a bug Im having difficutly fixing.
+on the the icon the menu does not drop down. In the end I was able to get the issue fixed through the help of slack, I had to link jquery from bootstrap.
 
+I am noticing a slide horizontal slide bar and I am unable to see that issue in my code.
 
 ## DEPLOYMENT
 
-In order to deploy the project and share it with friends and family I had to enable github pages. When doing so I selected a theme which in this case was
-Jekyll-theme-dinky and that allowed me to share my website to gain as much feedback as possible and improve my project accordingly.
+In order to deploy the project and share it with friends and family I had to enable github pages. At first I had to set a theme but I was able to resolve that
+before finishing the project.
 
 
 ## CREDITS
 
  Content:
 - The text used was a personal choice made by scrolling through google fonts and decided on a design I felt suitable.
-- I wrote the quote section mysefl
+- I wrote the quote section myself.
 
  Media:
 - All images were found on google images
-- The menu was also personally designed by mysefl
+- The menu was also personally designed by myself.
 
  Acknowledgements:
 - Inspiration for this project came from a personal dream of mine to one day own a small cafe on the coast somewhere. I chose Cornwall for
